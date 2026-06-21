@@ -2,38 +2,57 @@
 
 ## Overview
 
-This project uses Long Short-Term Memory (LSTM) neural networks to predict stock prices using historical market data.
+This project predicts stock prices using Long Short-Term Memory (LSTM) Neural Networks.
 
-## Technologies Used
+## Technologies
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* TensorFlow/Keras
-* Scikit-Learn
-* Yahoo Finance API
+- Python
+- Pandas
+- NumPy
+- TensorFlow
+- Scikit-Learn
+- Matplotlib
+- Yahoo Finance
+
+## Dataset
+
+Historical Apple stock prices downloaded using Yahoo Finance API.
 
 ## Workflow
 
-1. Data Collection using Yahoo Finance
+1. Data Collection
 2. Data Visualization
 3. Data Preprocessing
-4. Feature Scaling using MinMaxScaler
+4. Feature Scaling
 5. Sequence Generation
-6. LSTM Model Building
-7. Model Training
-8. Stock Price Prediction
-9. Future Forecasting
+6. LSTM Model Training
+7. Prediction
+8. Forecasting
+
+## Model Architecture
+
+LSTM (50 Units)
+↓
+LSTM (50 Units)
+↓
+Dense (1)
 
 ## Results
 
-The model successfully learned historical stock patterns and generated future stock price forecasts.
+- RMSE: X.XX
+- MAE: X.XX
+
+## Future Forecast
+
+(Insert screenshot here)
+
+## Actual vs Predicted
+
+(Insert screenshot here)
 
 ## Future Improvements
 
-* Train/Test Split
-* Hyperparameter Tuning
-* Dropout Layers
-* GRU Networks
-* Streamlit Deployment
+- GRU Networks
+- Hyperparameter Tuning
+- Streamlit Deployment
+- Multi-Stock Forecasting
